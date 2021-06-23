@@ -1,13 +1,10 @@
 {
   "name": "surveys-react",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Giancarlo Wisinewski Gomes <g_gomees@hotmail.com>",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^26.0.23",
