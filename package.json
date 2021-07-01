@@ -2,7 +2,11 @@
   "name": "surveys-react",
   "version": "1.0.0",
   "scripts": {
-    "test": "jest"
+    "test": "jest --passWithNoTests",
+    "test:watch": "npm test -- --watch",
+    "test:staged": "npm test -- --findRelatedTests",
+    "test:ci": "npm test -- --coverage"
+
   },
   "author": "Giancarlo Wisinewski Gomes <g_gomees@hotmail.com>",
   "license": "ISC",
