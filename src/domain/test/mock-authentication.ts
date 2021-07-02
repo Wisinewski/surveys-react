@@ -1,8 +1,9 @@
 import { AuthenticationParams } from './../usecases/authentication'
+import faker from 'faker'
 
 export const mockAuthenticationParams = (): AuthenticationParams => {
   return {
-    email: 'any_email',
-    password: 'any_password'
+    email: faker.internet.email(),
+    password: faker.internet.password()
   }
 }
