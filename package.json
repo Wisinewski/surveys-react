@@ -6,11 +6,11 @@
     "test:watch": "npm test -- --watch",
     "test:staged": "npm test -- --findRelatedTests",
     "test:ci": "npm test -- --coverage"
-
   },
   "author": "Giancarlo Wisinewski Gomes <g_gomees@hotmail.com>",
   "license": "ISC",
   "devDependencies": {
+    "@types/faker": "^5.5.6",
     "@types/jest": "^26.0.23",
     "@types/node": "^15.12.4",
     "@typescript-eslint/eslint-plugin": "^4.28.0",
@@ -20,6 +20,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-standard": "^5.0.0",
+    "faker": "^5.5.3",
     "git-commit-msg-linter": "^3.2.6",
     "husky": "^6.0.0",
     "jest": "^27.0.5",
