@@ -10,7 +10,8 @@ export class RemoteAuthentication implements Authentication {
 
   async auth (authenticationParams: AuthenticationParams): Promise<AccountModel> {
     await this.httpPostClient.post({
-      url: this.url
+      url: this.url,
+      body: authenticationParams
     })
     return null
   }
