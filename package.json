@@ -11,6 +11,7 @@
   "author": "Giancarlo Wisinewski Gomes <g_gomees@hotmail.com>",
   "license": "ISC",
   "devDependencies": {
+    "@testing-library/react": "^12.0.0",
     "@types/faker": "^5.5.6",
     "@types/jest": "^26.0.23",
     "@types/node": "^15.12.4",
