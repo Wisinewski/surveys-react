@@ -1,5 +1,5 @@
-import { RequiredFieldError } from '../../errors/required-field-error';
-import { RequiredFieldValidation } from './required-field-validation';
+import { RequiredFieldError } from '../../errors/required-field-error'
+import { RequiredFieldValidation } from './required-field-validation'
 import faker from 'faker'
 
 type SutTypes = {

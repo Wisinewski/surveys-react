@@ -1,5 +1,5 @@
-import { InvalidFieldError } from './../../errors/invalid-field-error';
-import { EmailValidation } from './email-validation';
+import { InvalidFieldError } from './../../errors/invalid-field-error'
+import { EmailValidation } from './email-validation'
 import faker from 'faker'
 
 type SutTypes = {
@@ -18,17 +18,17 @@ describe('EmailValidation', () => {
     const { sut } = makeSut()
     const error = sut.validate(faker.random.word())
     expect(error).toEqual(new InvalidFieldError())
-  });
+  })
 
   test('should return falsy if email is valid', () => {
     const { sut } = makeSut()
     const error = sut.validate(faker.internet.email())
     expect(error).toBeFalsy()
-  });
+  })
 
   test('should return falsy if email is empty', () => {
     const { sut } = makeSut()
     const error = sut.validate('')
     expect(error).toBeFalsy()
-  });
-});
+  })
+})
